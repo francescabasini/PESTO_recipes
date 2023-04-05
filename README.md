@@ -2,9 +2,9 @@
 ### Painless and Easy Scripts for Time Optimisation
 <!-- or shotcuts -->
 
-This repo contains a series of scripts, sometimes just a few lines, to remember how to perform a few not so common task.
+This repo contains a series of scripts, sometimes just a few lines, to remember how to perform a few not-so-common tasks.
 
-Here is a (hopefully up-to-date) list:
+Here is a (hopefully up-to-date) list of scripts:
 
 | Task | File name |Description |
 |-----|----|------|

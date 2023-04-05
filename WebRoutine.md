@@ -19,7 +19,7 @@ My webpage is using the [al-folio template](https://github.com/alshedivat/al-fol
   Server running... press ctrl-c to stop.
   ```
 
- Click on the `Server address` and open in <span style="font-family:monospace; font-size:1em;">browser</span>. You will be able to refresh the page and see the changes as you are making them.
+  Click on the `Server address` and open in <span style="font-family:monospace; font-size:1em;">browser</span>. You will be able to refresh the page and see the changes as you are making them.
 * When you are ready, add and commit your changes to master branch as you would normally do.
 * Finally, for page deployment, so that people can navigate to your page, write in terminal:
 
@@ -35,6 +35,10 @@ My webpage is using the [al-folio template](https://github.com/alshedivat/al-fol
     Say  `yes` and proceed.
 * Now type your website as `username.github.io` and show it to everyone!
 
+
+##### TODO:
+* Modify Action-Setting to not deploy on master automatically after push
+* For al-folio specifically, explain how to modify template adding/removing tabs and customising
 <!-- >hello
 
   <span style="color:red">cardinals</span>
