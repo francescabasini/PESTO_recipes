@@ -1,4 +1,4 @@
-# PESTO recipes
+# <span style="font-family:fantasy; font-size:1em;">PESTO recipes</span>
 ### Painless and Easy Scripts for Time Optimisation
 <!-- or shotcuts -->
 
@@ -9,7 +9,7 @@ Here is a (hopefully up-to-date) list:
 | Task | File name |Description |
 |-----|----|------|
 | Package development Python| PackDevPython.txt| simple instructions to setup own package development from local folder|
-| Webpage routine| WebRoutine.txt| simple pipeline to modify/update/deploy your personal webpage |
+| Webpage routine| WebRoutine.md| simple pipeline to modify/update/deploy your personal webpage |
 | VScode shortcuts| VShortcuts.txt| list of shortcuts and commands when using VS code|
 |Terminal script launch| Terminal_command_script.txt| list of commands to launch computing scripts from terminal to run on clusters|
 
