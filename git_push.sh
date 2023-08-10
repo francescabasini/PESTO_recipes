@@ -12,8 +12,3 @@ expect eof
 
 spawn git push origin master
 expect eof
-
-expect "Username for 'https://github.com':"
-send "$predefined_username\r"
-
-spawn echo "Pushed changes to GitHub using provided credentials."
