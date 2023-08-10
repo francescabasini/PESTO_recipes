@@ -15,8 +15,5 @@ expect eof
 
 expect "Username for 'https://github.com':"
 send "$predefined_username\r"
-expect "Password for 'https://$predefined_username@github.com':"
-send "$predefined_password\r"
-expect eof
 
 spawn echo "Pushed changes to GitHub using provided credentials."
