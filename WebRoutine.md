@@ -43,5 +43,4 @@ My webpage is using the [al-folio template](https://github.com/alshedivat/al-fol
 
   <span style="color:red">cardinals</span>
 
-
   <span style="font-family:Papyrus; font-size:4em;">LOVE!</span> -->

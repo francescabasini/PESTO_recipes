@@ -9,8 +9,10 @@ Here is a (hopefully up-to-date) list of scripts:
 | Task | File name |Description |
 |-----|----|------|
 | Package development Python| PackDevPython.md| simple instructions to setup own package development from local folder|
+| Python code chunks| Python_chunks folder| Chunks of code to execute a series of handy tasks in Python|
 | Webpage routine| WebRoutine.md| simple pipeline to modify/update/deploy your personal webpage |
 | VScode shortcuts| VShortcuts.md| list of shortcuts and commands when using VS code|
 |Terminal script launch| Terminal_command_script.md| list of commands to launch computing scripts from terminal to run on clusters|
+|Latex Templates| LatexTemplates folder| Folder containing my favourite templates for reports, thesis, posters and presentations|
 
-<!-- The SCRTP manages high performance computing (HPC) facilities that are available for you to use.  First you will need an SCRTP account (which differs from, but requires your normal Warwick ITS account).  Obtain your SCRTP account [here](https://warwick.ac.uk/research/rtp/sc/desktop/gettingstarted). -->
+<!-- Adding code to move mouse to look like your are online -->
