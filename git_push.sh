@@ -1,4 +1,4 @@
-#!/bin/expect
+#!/bin/expect -f
 
 #setting up GitHub username and token
 set predefined_username "francescabasini"
