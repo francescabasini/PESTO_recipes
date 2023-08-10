@@ -10,7 +10,12 @@ The following script is useful to add at the end of a job to push the new result
   git commit -m "your-commit"
   git push origin master
 
-  
+  git config credential.helper 'cache --timeout=31536000'  # 1 year timeout
+
   ```
+  The first time this script is executed, you'll be asked to username and password.
+  After that, the credentials will be stored for 1 year.
+  
+  There are commands to reset them if needed.
 
 ##### and

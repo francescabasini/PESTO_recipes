@@ -1,15 +1,11 @@
-#!/bin/expect -f
+#!/bin/bash
 
-# PORCODIO
-#setting up GitHub username and token
-set predefined_username "francescabasini"
-set predefined_password "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"
+git add .
+git commit -m "your-commit"
+git push origin master
 
-spawn git add .
-expect eof
+# first time this script is executed, you'll be asked to username and password
+# after that, the credetials will be stored for 1 year
+git config credential.helper 'cache --timeout=31536000'  # 1 year timeout
 
-spawn git commit -m "your-commit"
-expect eof
-
-spawn git push origin master
-expect eof
+# there are commands to reset them if needed
