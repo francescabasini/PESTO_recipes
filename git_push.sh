@@ -1,17 +1,22 @@
-#!/bin/bash
+#!/bin/expect -f
 
 #setting up GitHub username and token
-USERNAME="francescabasini"
-PASSWORD="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"
+set predefined_username "francescabasini"
+set predefined_password "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"
 
-git add .
-git commit -m "your-commit"
-git push origin master
+spawn git add .
+expect eof
 
-# Configure Git to use the provided username and password for the next push
-git config credential.helper "!f() { echo username=${USERNAME}; echo password=${PASSWORD}; }; f"
+spawn git commit -m "your-commit"
+expect eof
 
-echo "Pushed changes to GitHub using provided credentials."
+spawn git push origin master
+expect eof
 
-#display 
+expect "Username for 'https://github.com':"
+send "$predefined_username\r"
+expect "Password for 'https://$predefined_username@github.com':"
+send "$predefined_password\r"
+expect eof
 
+spawn echo "Pushed changes to GitHub using provided credentials."
